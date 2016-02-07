@@ -1,11 +1,13 @@
 #!/bin/bash
-# My first script
 
-my_love="radha"
-y=$2
+# put in your girl's name here
+my_love = "put-in-name-here"
+
+second_argument=$2
+
 if [ "$1" = "love" ]
 then
-    if [ "$y" = "$my_love" ]
+    if [ "$second_argument" = "$my_love" ]
     then
         echo "I know you do, sweety"
     else
